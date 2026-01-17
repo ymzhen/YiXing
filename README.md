@@ -1,8 +1,8 @@
-<div align="center"><img src="./YiXing/YiXing.png" alt="一醒" width="100" /></div>
+<div align="center"><img src="./YiXing/YiXing.png" alt="一醒" width="50" /></div>
 
-# 一醒
-方寸一句，豁然一醒
-
+# <div align="center">一醒 </div>
+<div align="center">方寸一句，豁然一醒</div>
+<br>
 一款优雅的桌面名言显示插件，每日为您呈现智慧与灵感。精选海量名言警句，涵盖文学、影视、哲学、诗词等12个分类，让您的桌面充满智慧光芒。
 
 ## 核心功能：
@@ -15,4 +15,4 @@
 
 <div align="center"><img src="./screenshot2.jpg" alt="一醒" width="1000" /></div>
 
-
+# 此组件需配合 [Übersicht](https://tracesof.net/uebersicht/ "点击进入Übersicht官网") 使用
