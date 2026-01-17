@@ -1,0 +1,148 @@
+{
+  "name": "一醒",
+  "description": "方寸一句 · 豁然一醒 - 一款优雅的桌面名言显示插件",
+  "author": "ZHEN巭",
+  "email": "",
+  "website": "https://github.com/ymzhen/YiXing",
+  "version": "1.0",
+  "category": "productivity",
+  "tags": ["quotes", "名言", "inspiration", "灵感", "wisdom", "智慧"],
+  "source": "https://raw.githubusercontent.com/ymzhen/Hitokoto/master/sentences/",
+  "compatibility": {
+    "min": "1.0",
+    "tested": "1.0"
+  },
+  "settings": [
+    {
+      "name": "分类选择",
+      "description": "选择名言分类",
+      "type": "multiselect",
+      "options": [
+        {"value": "a", "label": "动画"},
+        {"value": "b", "label": "漫画"},
+        {"value": "c", "label": "游戏"},
+        {"value": "d", "label": "文学"},
+        {"value": "e", "label": "原创"},
+        {"value": "f", "label": "网络"},
+        {"value": "g", "label": "其他"},
+        {"value": "h", "label": "影视"},
+        {"value": "i", "label": "诗词"},
+        {"value": "j", "label": "网易云"},
+        {"value": "k", "label": "哲学"},
+        {"value": "l", "label": "抖机灵"}
+      ],
+      "default": ["b", "c"]
+    },
+    {
+      "name": "显示背景",
+      "description": "启用/禁用毛玻璃背景效果",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "显示计时器",
+      "description": "显示名言切换倒计时",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "切换间隔",
+      "description": "设置名言自动切换的时间间隔",
+      "type": "select",
+      "options": [
+        {"value": 10000, "label": "10秒"},
+        {"value": 60000, "label": "1分钟"},
+        {"value": 1200000, "label": "20分钟"},
+        {"value": 3600000, "label": "1小时"},
+        {"value": 10800000, "label": "3小时"},
+        {"value": 18000000, "label": "5小时"}
+      ],
+      "default": 10000
+    }
+  ],
+  "features": [
+    "12个精选分类，涵盖古今中外",
+    "优雅的毛玻璃背景效果",
+    "自定义显示设置与切换间隔",
+    "智能缓存机制，离线可用",
+    "响应式设计，适配各种屏幕",
+    "平滑的动画过渡效果",
+    "实时数据更新",
+    "简洁美观的用户界面"
+  ],
+  "screenshots": [
+    "YiXing/screenshot-1.png",
+    "YiXing/screenshot-2.png",
+    "YiXing/screenshot-3.png"
+  ],
+  "dependencies": {
+    "coffeescript": "1.12.7",
+    "jquery": "3.6.0"
+  },
+  "permissions": [
+    "localStorage",
+    "fetch",
+    "DOM"
+  ],
+  "installation": {
+    "steps": [
+      "将 YiXing 文件夹复制到 Übersicht 的 widgets 目录",
+      "重启 Übersicht 或刷新插件列表",
+      "点击桌面上的名言图标打开设置面板",
+      "选择想要的名言分类并保存",
+      "等待数据加载完成"
+    ]
+  },
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2023-10-01",
+      "changes": [
+        "首次发布",
+        "支持12个名言分类",
+        "添加毛玻璃背景效果",
+        "实现智能缓存机制",
+        "添加设置面板和关于页面"
+      ]
+    }
+  ],
+  "contributing": "欢迎在 GitHub 上提交 Issues 和 Pull Requests",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ymzhen/Hitokoto"
+  },
+  "donate": {
+    "buymeacoffee": "",
+    "github_sponsors": ""
+  },
+  "localization": {
+    "languages": ["中文"],
+    "default": "中文"
+  },
+  "platforms": ["macOS"],
+  "requirements": {
+    "os": "macOS 10.13+",
+    "app": "Übersicht 1.6+",
+    "ram": "256MB",
+    "disk": "10MB"
+  },
+  "related": [
+    {
+      "name": "Hitokoto API",
+      "url": "https://github.com/ymzhen/Hitokoto",
+      "description": "名言数据源API"
+    }
+  ],
+  "acknowledgments": [
+    {
+      "name": "Übersicht",
+      "url": "http://tracesof.net/uebersicht/",
+      "description": "桌面小部件框架"
+    },
+    {
+      "name": "所有名言贡献者",
+      "description": "感谢所有名言的原作者和收集者"
+    }
+  ]
+}
